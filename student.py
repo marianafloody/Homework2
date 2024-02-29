@@ -148,7 +148,7 @@ def get_feature_descriptors(image, x_array, y_array, window_width, mode):
     '''
 
     # These are placeholders - replace with the coordinates of your feature points!
-    features = np.zeros(len(x_array), 512)
+    features = np.zeros((len(x_array), 512))
     # SIFT STEPS
     if mode == 'sift':
         # STEP 1: Calculate the gradient (partial derivatives on two directions) on all pixels.
